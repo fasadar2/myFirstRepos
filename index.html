@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" media="screen and (orientation:landscape)" href="style.css">
+    <link rel="stylesheet" media="screen and (orientation:portrait)" href="style-portrait.css">
+</head>
+
+<body>
+
+    <form action="/submit" method="post">
+        <label for="input_number">Случайное число 4</label>
+        <input type="password" id="input_number" name="input_number">
+
+        <label>
+            <input type="radio" name="select" value="select1">
+            Вариант ответа 1
+        </label>
+        <label>
+            <input type="radio" name="select" value="select2">
+            Вариант ответа 2
+        </label>
+
+        <label for="country">Страна:</label>
+        <select id ="country" name="country">
+            <option value=""></option>
+            <option value="rus">Россия</option>
+            <option value="eng">Англия</option>
+            <option value="deu">Германия</option>
+        </select>
+        <input type ="checkbox" id="checkbox" name="checkbox" >
+        <label for="checkbox">Выбор</label>
+        <!-- TODO: создать, используя формы тест на 5 вопросов,
+          тест должен включать в себя вопросы как с выбором одного варианта ответа,
+           так и с выбором множества вариантов ответа,
+         а так же вопросы подразумевающие ответ ввиде числа, или текста
+           -->
+        <button type="update">кнопка</button>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10px;
+}
+.item{
+    background-color: orange;
+    width: 128px;
+    height: 128px;
+    border-bottom: 20px solid black;
+    font-size: 48px;
+    text-align: center;
+}
+
